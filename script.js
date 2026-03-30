@@ -43,19 +43,54 @@ const catalogData = [
         icon: "🏫"
     },
     {
-        id: "item-4",
+        id: "item-2",
         name: "Transfer Neymar ke PSG",
         price: 222000000,
         currency: "EUR",
         icon: "⚽"
     },
     {
-        id: "item-5",
+        id: "item-3",
         name: "1 Unit Jet Tempur F-35A",
         price: 82500000,
         currency: "USD",
         icon: "🛩️"
-    }
+    },
+    {
+        id: "item-4",
+        name: "Peluncuran Roket Starship (SpaceX)",
+        price: 100000000,
+        currency: "USD",
+        icon: "🚀"
+    },
+    {
+        id: "item-5",
+        name: "Renovasi Total 1.000 Sekolah Rusak di Pelosok",
+        price: 5000000000000,
+        currency: "IDR",
+        icon: "🏫"
+    },
+    {
+        id: "item-6",
+        name: "Beasiswa Full S1 untuk 10.000 Mahasiswa",
+        price: 1800000000000,
+        currency: "IDR",
+        icon: "🎓"
+    },
+    {
+        id: "item-7",
+        name: "Pembangunan 500 Puskesmas Baru di Daerah 3T",
+        price: 2500000000000,
+        currency: "IDR",
+        icon: "🏥"
+    },
+    {
+        id: "item-8",
+        name: "Kenaikan Gaji Guru Honorer (Nasional/Tahun)",
+        price: 15000000000000,
+        currency: "IDR",
+        icon: "🧑‍🏫"
+    },
     // Kamu bisa tambah lagi nanti di sini...
 ];
 
@@ -150,7 +185,7 @@ function formatTimeDescription(mbgValue) {
     const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
 
-    let text = "Cukup untuk mendanai operasional nasional selama ";
+    let text = "Setara dana operasional MBG selama ";
     if (days > 0) text += `${days} hari `;
     if (hours > 0) text += `${hours} jam `;
     if (minutes > 0) text += `${minutes} menit `;
